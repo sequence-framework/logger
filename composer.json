@@ -1,0 +1,23 @@
+{
+    "name": "sequence/logger",
+    "description": "Logging package for Sequence framework",
+    "type": "package",
+    "require": {
+        "php": "^8.0",
+        "monolog/monolog": "2.3.4",
+        "sequence/interfaces": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sequence\\Logger\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Callum Hopkins",
+            "email": "callum.e.hopkins@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
